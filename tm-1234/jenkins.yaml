@@ -99,23 +99,16 @@ unclassified:
     watchingEnabled: false
   gitHubConfiguration:
     apiRateLimitChecker: ThrottleForNormalize
-  gitHubPluginConfig:
-    hookUrl: "http://jenkins.allthedevops.com/teams-blue-team/github-webhook/"
   gitSCM:
     createAccountBasedOnEmail: false
     showEntireCommitSummaryInChanges: false
     useExistingAccountWithSameEmail: false
   location:
-    adminAddress: "address not configured yet <nobody@nowhere>"
-    url: "http://jenkins.allthedevops.com/teams-blue-team/"
+    adminAddress: "Zach Zimmerman <zzimmerman@cloudbees.com>"
   mailer:
     charset: "UTF-8"
     useSsl: false
     useTls: false
-  operationsCenterRootAction:
-    connectionDetails: "----- BEGIN CONNECTION DETAILS -----\nH4sIAAAAAAAAAB2KSQ4CIRAA/9JnG0I0gz2/6c0tKIaBuRj/LvFWqaoPXBu/OqzAS050dkbmC+Ep\r\
-      \n54TER0ORxdwsEUmGA9xtvgmlDMfu/JxqtDLdrff3GqM+qgYVrc3Dtk8sY+veQqnK5V8jfH/lQxvR\r\
-      \ndgAAAA==\r\n----- END CONNECTION DETAILS -----\n"
   pollSCM:
     pollingThreadCount: 10
   usageStatisticsCloudBees:
